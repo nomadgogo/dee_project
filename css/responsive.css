@@ -1,0 +1,669 @@
+
+@media screen and (max-width:1250px){
+    .header{
+        padding: 0 ;
+    }
+
+    .header .inner{
+        height: 60px;
+    }
+
+    .header .header-wrap{
+        width: 95%;
+    }
+        
+    header .logo img{
+        width: 150px;
+    }
+
+    header nav ul{
+        padding-right: 20px;
+    }
+    header nav ul li{
+        padding: 0;
+    }
+    header nav ul li a{
+        font-size: 17px;
+        padding: 20px 20px;
+    }
+    
+    section {
+        height: auto;
+    }
+
+    #about .inner,
+    #Portfolio .inner{
+        padding-top:0;
+    }
+
+    .jb-text{
+        width: 6rem;
+        margin-left:32%;
+        font-size: 17px;
+    }
+
+
+  /* 비주얼 섹션 */
+  #visual .container{
+    width: 100%;
+    flex-wrap: wrap;
+    }
+    #visual .container .side{
+        width:  100%
+    }
+    #visual .container ul{
+        width:  100%;
+    }
+    .container ul .no1{
+        padding:45px 10px;
+        font-size: 15px;
+    }
+    .container ul .no2{
+        padding:45px 10px;
+        font-size: 15px;
+    }
+
+    #visual .scrolltxt{
+        width: 100%;
+    }
+    #visual .container2{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #visual .container2 ul{
+        width:  100%;
+    }
+    /* #visual .container2 ul li{
+        flex-basis:  100%;
+    } */
+
+    .scrolltxt{
+        /* height: 5%; */
+    }
+    .scrolltxt p{
+        font-size: 1.1rem;
+    }
+
+    .container2 ul .no3, .no4, .no5{
+        display: none;
+    }
+    .container2 ul .no6{
+        flex-basis:  100%;
+        background: url('../images/444.jpg')no-repeat center;
+        background-size: cover;
+        /* line-height: 145px; */
+    }
+
+    /* about */
+    #about .inner{
+        flex-direction: column; 
+        flex-direction: column-reverse;  
+    }
+    .skills{ 
+        flex-basis:  100%;
+        /* width:  100%; */
+    }
+    .aboutme{  
+        flex-basis:  100%;
+        /* width:  100%; */
+        border-bottom: 0;
+    }
+    .aboutme img{
+        width: 140px;
+        padding-top: 20px;
+    }
+
+    .aboutme .about_txt{
+        padding-top:24px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+    .skills .skill_1,
+    .skills .skill_2 {
+        border-right:1px solid #000; 
+    }
+    .skills .skill_1 ul,
+    .skills .skill_2 ul{
+        padding:50px 0 50px 0;
+    }
+    .skills .skill_1 img,
+    .skills .skill_2 img{
+    width: 48px;
+    }
+    .skills .skill_1 span,
+    .skills .skill_2 span{
+    font-size: 15px;
+    }
+
+    /* 포트폴리오 */
+    #Portfolio .inner{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    #Portfolio .tab_container{
+        flex-basis:100%;
+        padding:15px 0;
+        height: 200px;
+        border-top:0;
+        border-bottom: 0;
+    }
+    #Portfolio .tab_container .tabMenu{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        text-align: center;
+        /* line-height: 50px; */
+        font-size: 18px;
+    }
+    #Portfolio .tab_container .tabMenu li{
+        flex: 1 1 200px;
+        /* flex-grow:1; */
+    }
+
+    #Portfolio .tab_container .tabMenu li a:hover{
+        background-color: var(--nav-color);
+        border:1px solid #000;
+        padding:10px;
+    }
+
+
+    
+#Portfolio .tabs .thum .imgWrap{
+    padding-top:0;
+}
+
+    #Portfolio .tabs{   flex-basis:100%;}
+    #Portfolio .tabs .InfoWrap .title{
+        font-size: 22px;
+    
+    }
+    #Portfolio .tabs .InfoWrap .title text{
+        font-size: 14px;
+        line-height: 30px;
+        padding-top: 40px;
+    }
+    
+
+    #Portfolio .work_desc{
+        flex-basis:100%;
+        border-top: 0;
+        padding:20px;
+        line-height:20px;
+        font-size: 13px;
+    }
+    
+    /* contact */
+    /* #contact .inner{
+        flex-wrap:wrap;
+    }
+    #contact .contact_left{
+        flex-basis:100%;
+        padding:700px 10px 0;
+    } */
+
+    #contact .contact_left img{
+        width: 50%;
+        left: 25%;
+        top:40%;
+        transform: translateY(-40%);
+    }
+
+    /* 컨택트 우측 */
+    #contact .contact_right{
+        /* flex-basis:100%; */
+        border-left: 1px solid #000;
+        /* font-size:2rem; */
+        padding:10% 5% 0;
+    }
+    #contact .contact_right .social span {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    html{
+        overflow-y:auto;
+    }
+    
+    section {
+        height: auto;
+    }
+    header nav ul{
+        padding-right: 30px;
+    }
+
+
+    .skills .skill_1 img,
+    .skills .skill_2 img{
+        margin-bottom: 0.7rem;
+
+    }
+    .skills .skill_1 span, .skills .skill_2 span {
+        padding-top: 9px;
+    }
+    .jb-text{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 28%;
+        margin-top: -10px;
+        line-height:3.5rem;
+        font-size: 18px;
+        position: absolute;
+        /* display:   block; */
+        border-radius: 50%;
+        background-color:rgba(239, 211, 74, 0.7);
+        color:#fff;
+    }
+
+
+    #Portfolio .tab_container .tabMenu {
+        font-size: 16px;
+    }
+    #Portfolio .tabs .thum .InfoWrap {
+        border:1px solid #000;
+        border-bottom: 0;
+    }
+    #Portfolio .tabs .thum .InfoWrap .text {
+        font-size: 15px;
+        padding:10px;
+    }
+    /* 동영상 크기 */
+    .modal .item_box {
+        width: 910px;
+        height: 580px;
+    }
+
+
+    #contact .contact_left img{
+        width: 50%;
+        left: 25%;
+        top:40%;
+        transform: translateY(-40%);
+    }
+    #contact .contact_right .social span {
+        font-size: 1.3rem;
+    }
+    .f_sns li a i{
+        font-size:25px;
+    }
+    /*탑버튼 */
+    #quick {
+        right: 3%;
+        padding: 20px 8px 8px;
+        border-radius: 10px;
+    }
+    #quick ul li {
+        padding: 0 0 15px;
+    }
+
+    #quick ul li.topBtn {
+        margin: 0 0 15px;
+    }
+    #quick ul li.topBtn {
+        margin: 0 0 20px;
+        border-bottom: 1px solid rgba(255,255,255,.2);
+    }
+    #quick ul li {
+        padding: 0 0 15px;
+    }
+    #quick ul li a {
+        font-size: 11px;
+    }
+    #quick ul li.topBtn a span {
+        width: 10px;
+        height: 10px;
+    }
+    #quick ul li a span {
+        margin: 0 auto 8px;
+    }
+}
+
+
+
+@media screen and (max-width:640px){
+
+    .header{
+        padding: 0 ;
+    }
+
+    .header .header-wrap{
+        width: 95%;
+    }
+
+    .header .nav{
+        display: none;
+    }
+    .header .etc{
+        display: none;
+    }
+
+    header .logo img{
+        width: 130px;      
+    }
+        
+    /* .m-btn {
+        top: 25px;
+    } */
+    section {
+        height: auto;
+    }
+    .m-btn{
+        display: block;
+        z-index:1000;
+    }
+
+    .content .title h2{
+        font-size:0.8em;
+    }
+    .content .title h2::after{
+        width: 7%;
+    }
+    
+    #about .inner,
+    #Portfolio .inner{
+        padding-top:0;
+        height: 70%;
+    }
+
+    /* 비주얼 섹션 */
+    #visual .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #visual .container .side{
+        width:  100%
+    }
+    #visual .container ul{
+        width:  100%;
+    }
+    .container ul .no1{
+        padding:45px 10px;
+        font-size: 13px;
+    }
+    .container ul .no2{
+        padding:45px 10px;
+        font-size: 13px;
+    }
+
+    #visual .scrolltxt{
+        width: 100%;
+    }
+    #visual .container2{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #visual .container2 ul{
+        width:  100%;
+    }
+    /* #visual .container2 ul li{
+        flex-basis:  100%;
+    } */
+
+    .scrolltxt{
+        /* height: 5%; */
+    }
+    .scrolltxt p{
+        font-size: 1.1rem;
+    }
+
+    .container2 ul .no3, .no4, .no5{
+        display: none;
+    }
+    .container2 ul .no6{
+        flex-basis:  100%;
+        /* line-height: 145px; */
+    }
+
+
+    /* about */
+    #about .inner{
+        flex-direction: column; 
+        flex-direction: column-reverse;  
+    }
+  
+    .aboutme{  
+        flex-basis:  22%;
+        padding:10px 42px 30px;
+        border-top:0;
+    }
+    .aboutme img{
+        width: 100px;
+        padding-top: 20px;
+    }
+    
+    .aboutme .about_txt{
+        padding-top:30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+
+    
+    .jb-text{
+        width: 3rem;
+        height: 3rem;
+        margin-left: 28%;
+        margin-top: 0px;
+        line-height: 25px;
+        font-size: 14px;
+        position: absolute;
+        /* display:   block; */
+        border-radius: 50%;
+        background-color:rgba(0, 0, 0, 0.5);
+        color:#fff;
+        border:1px dashed #fff;
+    }
+
+    .skills{ 
+        flex-basis:  21%;
+         /* width:  100%; */
+    }
+    .skills .skill_1,
+    .skills .skill_2{
+        padding:10px 0;
+        /* height: 30%; */
+        flex-basis:  15%;
+    }
+    .skills .skill_1 ul,
+    .skills .skill_2 ul{
+        padding:20px 0;
+    }
+    .skills .skill_1 img,
+    .skills .skill_2 img{
+    width: 36px;
+    }
+    .skills .skill_1 span,
+    .skills .skill_2 span{
+      font-size: 13px;
+    }
+
+
+    /* 포트폴리오 */
+    #Portfolio .inner{
+        flex-wrap: wrap;
+    }
+
+    #Portfolio .tab_container{
+        flex-basis:100%;
+        padding:20px 15px 10px;
+        height: 135px;
+        border-top:0;
+        border-bottom: 0;
+    }
+    #Portfolio .tab_container .tabMenu{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        text-align: center;
+        line-height: 50px;
+        font-size: 14px;
+    }
+    #Portfolio .tab_container .tabMenu li{
+        flex: 1 1 120px;
+        flex-grow:1;
+    }
+
+    #Portfolio .tabs{
+    padding:0;
+    }
+
+    /* #Portfolio .tab_container ul li a {
+        font-size: 12px;
+    } */
+    /* #Portfolio .work_list ul li a:hover{
+        background-color: var(--nav-color);
+        border:1px solid #000;
+        padding:10px;
+    } 
+   } */
+    #Portfolio .tabs .thum .InfoWrap{  
+        padding:20px;
+        border-bottom: 0;
+        line-height: 2rem;
+    }
+     
+    #Portfolio .tabs .thum .InfoWrap .title {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 40px;
+        margin-left: 10px;
+    }
+    #Portfolio .tabs .thum .InfoWrap .text {
+        font-size: 13px;
+        font-weight: 0;
+    }
+
+    #Portfolio .work_desc{
+        flex-basis:100%;
+        /* border-top:1px solid; */
+        padding:20px;
+        line-height:20px;
+        font-size: 13px;
+    }
+    /* 동영상 크기 */
+    .modal .item_box {
+        width: 510px;
+        height: 280px;
+    }
+
+    /* contact */
+    #contact .inner{
+        flex-wrap:wrap;
+        height: 100%;
+    }
+
+    #contact .contact_left{
+        flex-basis:100%;
+        border: 1px solid #000;
+        border-top:0;
+        /* padding:10% 0; */
+    }
+
+    #contact .contact_left img{
+        width: 35%;
+        top:50%;
+        transform: translateY(-50%);
+        left: 35%;
+        padding:20px;
+    }
+    /* 컨택트 우측 */
+    #contact .contact_right{
+        flex-basis:100%;
+        height: 400px;
+        border-left: 1px solid #000;
+        font-size:1rem;
+        padding:10px;
+    }
+
+    #contact .contact_right .social li{
+        width: 155px;
+    }
+
+    #contact .contact_right .social li a{
+ 
+        padding:10px 0 15px 19px;
+    }
+
+    #contact .contact_right .social span{
+        font-size:0.9rem;
+        padding-left:5%;
+    }
+
+    /* 푸터 */
+    /* .footer .sns ul{
+        padding-left: 10px;
+    }
+    .footer .sns ul li a i{
+        font-size: 20px;
+    }
+      */
+    .f_logo{
+        width: 160px;
+        padding:19px 0;
+    }
+    .f_logo img{
+            width: 100px;
+    }
+    .f_right{
+        width: calc(100% -  160px);
+           float: right;
+        }
+
+    .f_sns li a i{
+        font-size: 18px;
+    }
+
+    /*카피라이트*/
+    .copyright{
+        font-size:12px;
+        padding:18px 0;
+    }
+
+    /*컨택트 모달 */
+    .contact-modal{
+        width: 400px;
+        top:-10%;
+    }
+    .contact-modal h3{
+        font-size: 20px;
+        margin-bottom:17px;
+    }
+    .contact-modal form textarea{
+        margin:10px 0;
+        padding:15px;
+    }
+    .contact-modal form .button{
+        width: 90px;
+        padding:10px;
+        margin: 14px auto 0;
+    }
+
+}
+
+@media screen and (max-width:406px){
+    .container ul .no1,.container ul .no2{
+        padding: 40px 10px;
+        font-size:11px;
+    }
+    .scrolltxt p{
+        font-size: 0.8rem;
+    }
+    .skills .skill_1 span, .skills .skill_2 span {
+        font-size: 11px;
+    }
+    .skills .skill_1 span, .skills .skill_2 span {
+        padding-top: 10px;
+    }
+    #Portfolio .tab_container {
+        padding: 0 15px 10px;
+        height: 142px;
+    }
+    #Portfolio .tab_container ul li a{
+        font-size: 12px;
+    }
+    #Portfolio .tabs .thum .InfoWrap .text {
+        font-size: 11px;
+    }
+}

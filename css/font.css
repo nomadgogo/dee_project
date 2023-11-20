@@ -1,0 +1,29 @@
+
+ @font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('../font/AnyConv.com__PlayfairDisplay-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ /* @font-face {
+    font-family: 'Playfair bold', serif;
+    src: url('../font/AnyConv.com__PlayfairDisplay-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style:bold;
+
+} */
+
+
+ 
+/* 
+ @font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('../font/AnyConv.com__PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../font/NotoSansKR-Regular.woff')format('woff'),
+    url('../font/NotoSansKR-Regular.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+ 
+ */
